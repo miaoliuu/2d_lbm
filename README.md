@@ -1,5 +1,5 @@
 # 2D_lbm
-2d Lattice Boltzmann Method for different flow cases
+2D numerical simulation by Lattice Boltzmann Method with different flow cases.
 
 ## 1. corrugated_tube
 
@@ -35,4 +35,13 @@
 
   ![Velocity_Compare](poiseuille_flow/Velocity_Compare.png)
 
+## 4. couette_flow
+
+- Couette flow (compared with analytical solution)
+
+  ![velocity_Y](CouetteFlow/Couette.png)
+
+- Couette Flow with pressure variants (compared with analytical solution)
+
+  ![Velocity_Compare](CouetteFlow/Couette_GPBC.png)
   
